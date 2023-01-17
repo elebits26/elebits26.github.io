@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+body {
+  background: lightcyan;
+  /* background-image: url(hina.png); */
+}
+
+header {
+  margin:20px auto 40px; 
+  padding: 10px 20px;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  background: lightgray;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+  color: hwb(200deg 0% 10%);
+}
+
+.hina {
+border-radius: 10px;
+animation: hina 3s infinite linear;
+}
+
+@keyframes hina {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul {
+  margin: 40px 400px 300px;
+  padding: 20px 50px 40px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 5px gray;
+}
+
+li {
+  margin: 1em;
+}
+
+nav {
+  margin: 10px auto 0; 
+  width: 400px;
+  height: 40px;
+  text-align: center;
+  box-shadow: 0 0 5px gray;
+}
+
+.btn {
+  display: inline-block;
+  width: 400px;
+  height: 40px;
+}
+
+#A {
+  width: 200px;
+  height: 40px;
+  background-image: url("images/A_hover.png");
+}
+
+#A:hover img {
+  display: none;
+}
+
+#B {
+  width: 200px;
+  background-image: url("images/B_hover.png");
+}
+
+#B:hover img {
+  display: none;
+}
