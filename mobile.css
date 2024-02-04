@@ -8,6 +8,7 @@
 html {
   box-sizing: border-box;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 *,
@@ -151,21 +152,21 @@ body {
 
 
 .header__logo {
-  height: 150px;
+  height: 100px;
   width: 100%;
   position: absolute;
-  top: 30px;
-  left: 0;
+  top: 20px;
+  left: 20px;
   background: transparent;
 }
 
 .header__logo p {
-  margin: 0 0 0 80px;
   color: #fff;
   font-size: 1.5rem;
   font-family: "游明朝体", "Yu Mincho", YuMincho, "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "HGS明朝B", "ＭＳ Ｐ明朝", serif;
   text-align: left;
   line-height: 40px;
+  text-shadow: 0px 0px 10px #1a0057;
 }
 
 .header__logo span {
@@ -174,10 +175,15 @@ body {
 }
 
 .header__slider__txt-img-wrap {
+  width: 100%;
   position: absolute;
   top: 48%;
   left: 50%;
-  filter: drop-shadow(0px 0px 1px #1a0057);
+  filter: drop-shadow(0px 0px 2px #1a0057);
+}
+
+.header__slider__txt-img-wrap img {
+  width: 100%;
 }
 
 
