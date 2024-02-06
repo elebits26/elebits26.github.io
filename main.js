@@ -14,4 +14,6 @@ $(".header__slider")
     pauseOnHover: false,
   })
 
-
+  $('.header__slider').on('touchmove', function(event, slick, currentSlide, nextSlide){
+    $('.header__slider').slick('slickPlay');
+  });
