@@ -8,7 +8,7 @@
 html {
   box-sizing: border-box;
   overflow-y: scroll;
-  overflow-x: hidden;
+  overflow-x: no-display;
 }
 
 *,
@@ -18,8 +18,10 @@ html {
 }
 
 body {
+  width: 100vw;
   position: relative;
-  background: #0f0031;
+/*   background: #0f0031; */
+  background: red;
 }
 
 .PC {
