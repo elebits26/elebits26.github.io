@@ -8,7 +8,7 @@
 html {
   box-sizing: border-box;
   overflow-y: scroll;
-  overflow-x: no-display;
+  overflow-x: hidden;
 }
 
 *,
