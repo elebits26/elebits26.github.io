@@ -20,8 +20,7 @@ html {
 body {
   width: 100vw;
   position: relative;
-/*   background: #0f0031; */
-  background: pink;
+  background: #0f0031;
 }
 
 .PC {
