@@ -20,7 +20,8 @@ html {
 body {
   width: 100vw;
   position: relative;
-  background: #0f0031;
+/*   background: #0f0031; */
+  background: pink;
 }
 
 .PC {
@@ -144,7 +145,6 @@ body {
 
 .header__logo {
   height: 100px;
-  width: 100vw;
   position: absolute;
   top: 20px;
   left: 20px;
