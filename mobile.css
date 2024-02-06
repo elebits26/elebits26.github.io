@@ -84,31 +84,22 @@ body {
 
 .header__slider__item__img {
   width: 100vw;
-  /* スライダー内の画像を横幅100%に */
   height: 750px;
   object-fit: cover;
 }
-
-/* slickのJSで書かれるタグ内、スライド左右の余白調整 */
 
 .header__slider .slick-slide {
   margin: 0;
 }
 
-/* 矢印の設定 */
-
 .slick-prev,
 .slick-next {
   position: absolute;
-  /* 絶対配置にする */
   top: 42%;
   cursor: pointer;
   outline: none;
-  /* クリックをしたら出てくる枠線を消す */
   border-top: 2px solid #666;
-  /* 矢印の色 */
   border-right: 2px solid #666;
-  /* 矢印の色 */
   height: 15px;
   width: 15px;
 }
@@ -122,8 +113,6 @@ body {
   right: -1.5%;
   transform: rotate(45deg);
 }
-
-/* ドットナビゲーションの設定 */
 
 .slick-dots {
   text-align: center;
@@ -147,7 +136,6 @@ body {
 
 .slick-dots .slick-active button {
   background: #333;
-  /* ドットボタンの現在地表示の色 */
 }
 
 
