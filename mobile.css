@@ -20,7 +20,9 @@ html {
 body {
   width: 100vw;
   position: relative;
-  background: #0f0031;
+/*   background: #0f0031; */
+
+  background: skyblue;
 }
 
 .PC {
@@ -80,6 +82,7 @@ body {
   width: 100vw;
   margin: 0 auto;
   overflow: hidden;
+  pointer-events: none;
 }
 
 .header__slider__item__img {
