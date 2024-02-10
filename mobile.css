@@ -165,7 +165,7 @@ body {
   font-weight: bold;
 }
 
-.header__slider__txt-img-wrap {
+.header__slider__txt-img--wrap {
   width: 100vw;
   position: absolute;
   top: 55%;
@@ -174,7 +174,7 @@ body {
   filter: drop-shadow(0px 0px 2px #1a0057);
 }
 
-.header__slider__txt-img-wrap img {
+.header__slider__txt-img--wrap img {
   width: 100vw;
 }
 
