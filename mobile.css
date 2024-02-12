@@ -72,12 +72,10 @@ body {
 
 
 .header__slider--wrap {
-  width: 100vw;
   position: relative;
 }
 
 .header__slider {
-  width: 100vw;
   margin: 0 auto;
   overflow: hidden;
   pointer-events: none;
